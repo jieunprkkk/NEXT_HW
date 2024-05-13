@@ -1,0 +1,63 @@
+.upper {
+    width: 800px;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+}
+.banner.About {
+    width: 800px;
+    height: 50px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-color: red;
+}
+.banner.Product {
+    width: 800px;
+    height: 50px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-color: red;
+}
+.banner.Technology {
+    width: 800px;
+    height: 50px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-color: red;
+}
+.banner.Downloads {
+    width: 800px;
+    height: 50px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-color: red;
+}
+.bottom {
+    width: 800px;
+    height: 40px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.About {
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.Custom {
+    font-size: 20px;
+    padding-top: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    font-size: 15px;
+    width: 195px;
+    background-color: rgb(86, 84, 84);
+    color: white;
+    height: 35px;
+}
