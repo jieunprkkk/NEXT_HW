@@ -6,6 +6,7 @@ import { PEOPLE_INFORMATION_TYPE } from 'types/people/people-information';
 export const PEOPLE_ITEMS = {
     TEN: 10,
     ELEVEN: 11,
+    TWELVE: 12,
 };
 
 export enum DEPARTMENT {
@@ -39,6 +40,7 @@ export enum MANAGEMENT_TEAM_POSITION {
     EDUCATION = '학술부',
     PROJECT_MANAGER = '기획부',
     NORMAL = '',
+    MEMBER = '학회원',
 }
 
 export const PEOPLE_INFORMATION: PEOPLE_INFORMATION_TYPE[] = [
@@ -471,5 +473,13 @@ export const PEOPLE_INFORMATION: PEOPLE_INFORMATION_TYPE[] = [
         classOf: 20,
         imgSrc: '/images/profile/11gen/11기_최유빈.png',
         managementTeam: MANAGEMENT_TEAM_POSITION.EXECUTIVE,
+    },
+    {
+        gen: PEOPLE_ITEMS.TWELVE,
+        name: '박지은',
+        department: DEPARTMENT.CHINESE_CHARACTER,
+        classOf: 23,
+        imgSrc: '/images/profile/12gen/12기_박지은.jpg',
+        managementTeam: MANAGEMENT_TEAM_POSITION.MEMBER,
     },
 ];
